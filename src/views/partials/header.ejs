@@ -1,0 +1,48 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Snippets</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="./">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./snippets/">List</a>
+        </li>
+        <% if (user) { %>
+          <li class="nav-item">
+            <a class="nav-link" href="./snippets/create">Create snippet</a>
+          </li>
+          <% } %>
+      </ul>
+    </div>
+    <ul class="navbar-nav">
+      <% if (user) { %>
+        <li class="nav-item">
+          <p class="nav-link">
+            Hello, <%= user.username %>
+          </p>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./user/logout">
+            <button class="btn btn-outline-light my-2 my-sm-0">Log out</button>
+          </a>
+        </li>
+        <% } else { %>
+          <li class="nav-item">
+            <a class="nav-link" href="./user/login">
+              <button class="btn btn-outline-light my-2 my-sm-0">Log in</button>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./user/registration">
+              <button class="btn btn-outline-light my-2 my-sm-0">Sign in</button>
+            </a>
+          </li>
+          <% } %>
+    </ul>
+  </nav>
+</header>

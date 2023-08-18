@@ -1,0 +1,28 @@
+<div class="container">
+  <h1 class="display-3">Snippets</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>
+          <% if (viewData?.snippets?.length) { %>
+            <% for (const snippet of viewData.snippets) { %>
+              <div class="snippet-container">
+                <pre><%= snippet.snippetText %></pre>
+        </p>
+        <% if (user && user._id === (snippet.createdBy ? snippet.createdBy.toString() : "")) { %>
+          <p class="text-nowrap">
+            <a class="btn btn-primary" href="./snippets/<%= snippet.id %>/update" role="button">Update</a>
+            <a class="btn btn-primary" href="./snippets/<%= snippet.id %>/delete" role="button">Delete</a>
+          </p>
+          <% } %>
+      </div>
+      <% } %>
+        <% } else { %>
+          <p class="text-center text-danger">
+            There are no snippets to display!
+          </p>
+          <% } %>
+    </div>
+  </div>
+</div>
+</div>
