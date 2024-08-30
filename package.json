@@ -1,7 +1,7 @@
 {
-  "name": "assignment-b1-crud-snippets",
+  "name": "crud-snippets",
   "version": "1.0.0",
-  "description": "1DV026 - Assignment b1 - CRUD Snippets",
+  "description": "CRUD Snippets",
   "type": "module",
   "main": "src/server.js",
   "scripts": {
