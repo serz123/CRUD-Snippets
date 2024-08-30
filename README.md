@@ -1,11 +1,11 @@
 # CRUD Snippets
 
-**Node.js** ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-**Express** ![Express](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
-**MongoDB** ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-**Mongoose** ![Mongoose](https://img.shields.io/badge/Mongoose-880000?logo=mongoose&logoColor=white)
-**EJS** ![EJS](https://img.shields.io/badge/EJS-3B8BEB?logo=ejs&logoColor=white)
-**Helmet** ![Helmet](https://img.shields.io/badge/Helmet-00A3E0?logo=helmet&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?logo=mongoose&logoColor=white)
+![EJS](https://img.shields.io/badge/EJS-3B8BEB?logo=ejs&logoColor=white)
+![Helmet](https://img.shields.io/badge/Helmet-00A3E0?logo=helmet&logoColor=white)
 
 CRUD Snippets is a web application designed to help you organize and manage your code snippets efficiently. Built on the Node.js platform, it utilizes Express as the application framework and Mongoose for object data modeling with MongoDB.
 
